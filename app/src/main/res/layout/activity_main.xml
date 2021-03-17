@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_red"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:singleLine="false"
+        android:soundEffectsEnabled="true"
+        android:text="RED"
+        android:textSize="24sp"
+        app:backgroundTint="#D61414"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        app:strokeColor="#A8190E"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/btn_blue"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:singleLine="false"
+        android:soundEffectsEnabled="true"
+        android:text="BLUE"
+        android:textSize="24sp"
+        app:backgroundTint="#094F87"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223"
+        app:strokeColor="#02355E"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/btn_green"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:singleLine="false"
+        android:soundEffectsEnabled="true"
+        android:text="GREEN"
+        android:textSize="24sp"
+        app:backgroundTint="#3D8709"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313"
+        app:strokeColor="#135E02"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/btn_yellow"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:singleLine="false"
+        android:soundEffectsEnabled="true"
+        android:text="YELLOW"
+        android:textSize="24sp"
+        app:backgroundTint="#F4BB0C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404"
+        app:strokeColor="#987302"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/btn_pink"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:singleLine="false"
+        android:soundEffectsEnabled="true"
+        android:text="PINK"
+        android:textSize="24sp"
+        app:backgroundTint="#FF05E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#A80393"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:singleLine="false"
+        android:soundEffectsEnabled="true"
+        android:text="RESET"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761"
+        app:strokeColor="#000000"
+        app:strokeWidth="5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
